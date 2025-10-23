@@ -1,0 +1,11 @@
+# Python / Backend
+/backend/venv/
+/backend/app/__pycache__/
+/backend/generated_charts/
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/build/
+
+# OS files
+.DS_Store

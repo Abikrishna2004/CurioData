@@ -1,0 +1,50 @@
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  width: 100%;
+}
+
+.container h1 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.container p {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.fileInput {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
