@@ -4,7 +4,7 @@ import Chart from './Chart';
 
 import { motion } from 'framer-motion';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://curiodata.onrender.com';
 
 const containerVariants = {
   hidden: { opacity: 0 },
