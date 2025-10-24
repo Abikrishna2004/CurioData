@@ -16,7 +16,7 @@ analysis.init_analysis()
 
 origins = [
     "http://localhost:3000",
-    "https://curiodata.netlify.app/", 
+    "https://curiodata.netlify.app", 
 ]
 app.add_middleware(
     CORSMiddleware,
